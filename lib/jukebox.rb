@@ -42,7 +42,7 @@ end
 
 def run(songs)
   puts "Please enter a command:"
-  jukebox_on = TRUE
+  jukebox_on = true
   while jukebox_on do
     user_input = gets.strip
     if user_input == "help"
@@ -53,7 +53,7 @@ def run(songs)
       play(songs)
     else
       exit_jukebox
-      jukebox_on = FALSE
+      jukebox_on = false
     end
   end
 end
